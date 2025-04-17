@@ -2,12 +2,123 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Team Meeting Minutes</title>
-    <!-- Use a favicon link if you have one -->
+    <!-- Optional favicon -->
     <link rel="icon" href="favicon.ico" />
   </head>
   <body>
-    <!-- Your content goes here -->
+    <header>
+      <h1>Team Meeting Minutes</h1>
+      <h2>Pomodoro Timer First Brainstorm</h2>
+      <h3>April 15, 2025</h3>
+    </header>
+
+    <main>
+      <!-- Attendance -->
+      <section>
+        <h2>Attendance</h2>
+        <ul>
+          <li>Alice</li>
+          <li>Bob</li>
+          <li>Charlie</li>
+        </ul>
+      </section>
+
+      <!-- Agenda -->
+      <section>
+        <h2>Agenda</h2>
+        <ol>
+          <li>Review last action items</li>
+          <li>Brainstorm pomodoro features</li>
+          <li>Assign next steps</li>
+        </ol>
+      </section>
+
+      <!-- Unfinished Business -->
+      <section>
+        <h2>Unfinished Business</h2>
+        <p>No outstanding issues from last meeting.</p>
+      </section>
+
+      <!-- New Business -->
+      <section>
+        <h2>New Business</h2>
+        <p>Discuss mobile notifications and UI mockups.</p>
+      </section>
+
+      <!-- Diagrams -->
+      <section>
+        <h2>Diagrams</h2>
+        <img src="images/whiteboard.png" alt="Whiteboard sketch of app flow" />
+      </section>
+
+      <!-- Audio & Video -->
+      <section>
+        <h2>Audio Recording</h2>
+        <audio controls>
+          <source src="media/audio.mp3" type="audio/mpeg" />
+          Your browser does not support audio.
+        </audio>
+      </section>
+
+      <section>
+        <h2>Video Recording</h2>
+        <video width="320" height="240" controls>
+          <source src="media/video.mp4" type="video/mp4" />
+          Your browser does not support video.
+        </video>
+      </section>
+
+      <!-- Feedback Form -->
+      <section>
+        <h2>Feedback Form</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" /><br /><br />
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" /><br /><br />
+
+            <label>Did you enjoy the meeting?</label>
+            <input type="checkbox" id="enjoy" name="enjoy" /><br /><br />
+
+            <label>Rating:</label><br />
+            <input type="radio" id="star5" name="rating" value="5" />
+            <label for="star5">5 stars</label><br />
+            <input type="radio" id="star4" name="rating" value="4" />
+            <label for="star4">4 stars</label><br /><br />
+
+            <label for="comments">Comments:</label><br />
+            <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+            <br /><br />
+
+            <label for="suggest">Suggestions:</label>
+            <input list="suggest-list" id="suggest" name="suggest" />
+            <datalist id="suggest-list">
+              <option value="More visuals"></option>
+              <option value="Shorter meeting"></option>
+            </datalist>
+            <br /><br />
+
+            <label for="contact">Contact via:</label>
+            <select id="contact" name="contact">
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+            </select>
+            <br /><br />
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Team Pomodoro</p>
+    </footer>
   </body>
 </html>
