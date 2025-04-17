@@ -3,21 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Team Meeting Minutes</title>
+    <title>Team Meeting Mins</title>
  
-    <link rel="icon" href="favicon.ico" />
+    <link rel="favicon.ico" href="favicon.ico" />
   </head>
   <body>
     <header>
-      <h1>Team Meeting Minutes</h1>
+      <h1>Team Meeting Mins</h1>
       <h2> FRC robotics</h2>
       <h4>April 16, 2025</h4>
     </header>
 
     <main>
-      <!-- Attendance -->
+    
       <section>
-        <h2>Attendance</h2>
+        <h2>Attendance List</h2>
         <ul>
           <li>Cody </li>
           <li>Jack</li>
@@ -36,37 +36,36 @@
         </ol>
       </section>
 
-      <!-- Unfinished Business -->
+   
       <section>
         <h2>Unfinished Business</h2>
         <p>Finalize important plans</p>
       </section>
 
-      <!-- New Business -->
+     
       <section>
         <h2>New Business</h2>
         <p>Build new robot blueprints</p>
       </section>
 
-      <!-- Diagrams -->
+   
       <section>
         <h2>Diagrams</h2>
         <img src="robo.png" alt="Robot we are building" />
       </section>
 
-      <!-- Audio & Video -->
+      
       <section>
-        <h2>Audio Recording</h2>
+        <h2>Audio </h2>
         <audio controls>
-          <source src="media/audio.mp3" type="audio/mpeg" />
-          Your browser does not support audio.
+          <source src="30sec.mp3" type="audio/mpeg" />
         </audio>
       </section>
 
       <section>
-        <h2>Video Recording</h2>
-        <video width="320" height="240" controls>
-          <source src="media/video.mp4" type="video/mp4" />
+        <h2>Video</h2>
+        <video width="600" height="300" controls>
+          <source src="firstdraft.mp4" type="video/mp4" />
           Your browser does not support video.
         </video>
       </section>
@@ -87,28 +86,28 @@
             <label>Did you enjoy the meeting?</label>
             <input type="checkbox" id="enjoy" name="enjoy" /><br /><br />
 
-            <label>Rating:</label><br />
+            <label>was it useful:</label><br />
             <input type="radio" id="star5" name="rating" value="5" />
-            <label for="star5">5 stars</label><br />
+            <label for="star5">Yes</label><br />
             <input type="radio" id="star4" name="rating" value="4" />
-            <label for="star4">4 stars</label><br /><br />
+            <label for="star4">No</label><br /><br />
 
             <label for="comments">Comments:</label><br />
-            <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+            <textarea id="comments" name="comments" rows="20" cols="60"></textarea>
             <br /><br />
 
             <label for="suggest">Suggestions:</label>
             <input list="suggest-list" id="suggest" name="suggest" />
             <datalist id="suggest-list">
-              <option value="More visuals"></option>
-              <option value="Shorter meeting"></option>
+              <option value="Build more"></option>
+              <option value="Build less discuss more"></option>
             </datalist>
             <br /><br />
 
-            <label for="contact">Contact via:</label>
-            <select id="contact" name="contact">
-              <option value="email">Email</option>
-              <option value="phone">Phone</option>
+            <label for="rating">attended in person:</label>
+            <select id="rating" name="rating">
+              <option value="email">yes</option>
+              <option value="phone">no</option>
             </select>
             <br /><br />
 
@@ -119,7 +118,7 @@
     </main>
 
     <footer>
-      <p>© 2025 Team Pomodoro</p>
+      <p>Frc@</p>
     </footer>
   </body>
 </html>
