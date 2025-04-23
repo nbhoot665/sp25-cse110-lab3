@@ -45,3 +45,18 @@ header {
   }
   
   
+
+/* Absolute units*/
+header {
+    padding: 10px;         
+    border-width: 0.1in;  
+    margin-bottom: 5cm;   
+  }
+  
+  /* Relative units */
+  body {
+    font-size: 2rem;       
+    line-height: 1.5em;    
+    padding: 10%;           
+  }
+  
