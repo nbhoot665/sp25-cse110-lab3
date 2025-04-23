@@ -28,4 +28,20 @@ header {
   p {
     color: color-mix(in srgb, blue 60%, white 40%);
   }
+
+
+:root {
+    --main-bg: hsl(283, 81%, 39%);
+    --accent-color: rgb(189, 127, 13);
+  }
+  
+  /* fallback */
+  body {
+    background-color: var(--main-bg, #f0f0f0);
+    color: var(--accent-color, black);       
+  }
+  section {
+    background-color: var(--sec-bg, #e0e0e0); 
+  }
+  
   
