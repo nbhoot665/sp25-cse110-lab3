@@ -150,3 +150,36 @@ form label {
     background-color: darkblue;
     color: white;
   }
+
+  main {
+    display: flex;
+    flex-direction: row;         
+    justify-content: space-around; 
+    align-items: flex-start;    
+    flex-wrap: wrap;           
+  }
+  
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;  
+    gap: 10px;                      
+    align-items: center;              
+  }
+
+
+@media (max-width: 600px) {
+    main {
+      flex-direction: column;   
+    }
+  
+    video {
+      width: 100%;
+    }
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
