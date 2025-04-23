@@ -182,4 +182,74 @@ form label {
     font-family: 'Roboto', sans-serif;
   }
   
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+  }
+  
+  /* ID Selector */
+  #attendance {
+    font-weight: bold;
+  }
+  
+  /* Universal Selector */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Element Selector */
+  p {
+    font-style: italic;
+  }
+  
+  /* Attribute Selector */
+  input[type="text"] {
+    border: 2px solid blue;
+  }
+  
+  /* Pseudo-class Selector */
+  button:hover {
+    background-color: green;
+  }
+  
+  /* Selector List */
+  h2, h4 {
+    text-transform: uppercase;
+  }
+  
+  /* Descendant Combinator */
+  section p {
+    font-size: 1.1em;
+  }
+  
+  /* Child Combinator */
+  ul > li {
+    list-style-type: square;
+  }
+  
+  /* General Sibling Combinator */
+  h2 ~ p {
+    color: teal;
+  }
+  
+  /* Adjacent Sibling Combinator */
+  h2 + p {
+    font-size: 0.9em;
+  }
+  
+  /* Combining Two Selectors */
+  p.highlight {
+    color: purple;
+  }
+  
+  /* :has() Selector */
+  section:has(img) {
+    border: 2px dotted red;
+  }
+  
+ 
+
+
+
   
