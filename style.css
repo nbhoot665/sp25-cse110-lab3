@@ -60,3 +60,48 @@ header {
     padding: 10%;           
   }
   
+
+
+
+/* Margins: longhand */
+header {
+    margin-top: 30px;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    margin-left: 18px;
+  }
+  
+  /* Margin auto */
+  main {
+    margin: 30px auto; 
+  }
+  
+  /* Padding: longhand */
+  section {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+  
+  /* Padding: shorthand */
+  footer {
+    padding: 5px 10px 5px 10px; 
+  }
+  
+  /* Borders */
+  header {
+    border-style: solid;
+    border-color: rgb(24, 21, 21);
+    border-width: 4px;
+    border-radius: 12px;
+  }
+  
+  section {
+    border-style: dashed;
+    border-color: rgb(228, 11, 145);
+    border-width: 2px;
+    border-radius: 3px;
+  }
+  
+  
