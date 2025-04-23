@@ -110,3 +110,12 @@ header {
     text-align: right;
     text-decoration: line-through;
   }
+
+  /*displays */
+form label {
+    display: inline;
+  }
+  
+  audio {
+    display: block;
+  }
