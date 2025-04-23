@@ -1,0 +1,31 @@
+/* rgb color */
+header {
+    background-color: rgb(20, 96, 235); 
+  }
+  
+  /* hex color */
+  section h2 {
+    color: #279e5a; 
+  }
+  
+  /* hsl color */
+  footer {
+    background-color: hsl(0, 0%, 20%);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* color name */
+  ul li {
+    color: orange;
+  }
+  
+  /* wider-gamut color */
+  audio {
+    background-color: color(display-p3 0 1 0); 
+  }
+  
+  /* color-mix */
+  p {
+    color: color-mix(in srgb, blue 60%, white 40%);
+  }
+  
